@@ -1,0 +1,52 @@
+.TodoList {
+  font-size: 24px;
+  list-style-type: none;
+  margin: 12px;
+  width: 300px;
+}
+
+.TodoList div {
+  display: flex;
+  background-color: rgba(213, 255, 210, 0.5);
+  min-height: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.TodoList span {
+  margin-top: 11px;
+}
+
+.TodoList p {
+  width: 200px;
+  margin: 10px 20px 8px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.TodoList input {
+  border: none;
+  border-bottom: 1px solid #5e5e5e;
+  background-color: rgba(246, 255, 245, 0.77);
+  width: 167px;
+  font-size: 24px;
+  margin: 10px 20px 0px;
+  height: 30px;
+}
+
+.remove:hover {
+  color: #ff7575;
+}
+
+.doneHover:hover {
+  color: #99ff92;
+}
+
+.doneButton {
+  color: #99ff92;
+}
+
+.doneTodo p {
+  color: rgb(130, 130, 130);
+  text-decoration: line-through;
+}
